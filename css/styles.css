@@ -1,0 +1,115 @@
+@import 'normalize.css';
+@import 'font-awesome.min.css';
+
+/* Adds box-sizing to errthang */
+*, *:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clear fix for floating clearing issues common in All Css Errwhere */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+/* End clearfix */
+
+body {
+	background-color:#e1e1e1
+}
+
+.wrapper {
+	width:90%;
+	max-width:960px;
+	background-color:#ee00ee;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}
+
+.banner {
+	width:100%;
+	background-color: #fff;
+	padding:10px;
+	margin-bottom: 20px;
+}
+
+.banner img {
+	width:100%;
+}
+
+.posts {
+	width:100%;
+	background-color:#aa00aa
+}
+
+.post {
+	width:48%;
+	background-color: #fff;
+	padding:5px 15px;
+	float:left;
+	margin-right:2%;
+	margin-top:5px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+}
+
+.post:nth-child(even) {
+/*	margin-right: -2%;
+	margin-left:2%;*/
+	background-color: #d1d1d1
+}
+
+.post img {
+	width:100%;
+}
+
+.post h1 {
+	word-wrap:break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
